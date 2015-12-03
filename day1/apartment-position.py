@@ -36,7 +36,5 @@ for x in xrange(0,len(instructions)):
 	elif s == ')':
 		floor -= 1
 
-
-
 # Print out final floor count
 print floor
