@@ -24,7 +24,7 @@ How many total feet of ribbon should they order?
 instructions = []
 
 with open("wrapping_instructions.txt") as f:
-    instructions = list(f)
+    instructions = list(f.read()) 
 
 ribbonLength = 0
 
